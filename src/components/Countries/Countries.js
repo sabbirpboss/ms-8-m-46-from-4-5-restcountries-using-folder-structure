@@ -15,16 +15,20 @@ const Countries = () => {
         Rest countries practice <i>(Countries.js)</i>
       </h1>
       <h3>Available Countries: {countries.length}</h3>
-      {countries.map((country) => console.log(country))}
-      {countries.map((country) => (
-        <Country
-          country = {country}
-        //   name={country.name.common}
-        //   capital={country.capital}
-        //   population={country.population}
-        //   region={country.region}
-        ></Country>
-      ))}
+      {/* {countries.map((country) => console.log(country))} */}
+
+      <div className="countries-container">
+        {countries.map((country) => (
+            <Country
+            country = {country}
+            key = {country.cca3}
+            //   name={country.name.common}
+            //   capital={country.capital}
+            //   population={country.population}
+            //   region={country.region}
+            ></Country>
+        ))}
+      </div>
     </div>
   );
 };
