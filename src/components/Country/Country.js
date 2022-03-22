@@ -8,7 +8,7 @@ const Country = (props) => {
     <div className="country">
       <img src={flags.png} alt="" />
       <h2>{name.common}</h2>
-      <p>Capital: {capital}</p>
+      <p>Capital: </p>
       <p>
         <small>Region: {region}</small>
       </p>
