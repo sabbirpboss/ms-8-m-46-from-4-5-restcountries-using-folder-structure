@@ -3,7 +3,7 @@ import "./Country.css";
 
 const Country = (props) => {
     console.log(props.country);
-    const {name, region, area, capital, population, flags} = props.country;
+    const {name, region, area, population, flags} = props.country;
   return (
     <div className="country">
       <img src={flags.png} alt="" />
