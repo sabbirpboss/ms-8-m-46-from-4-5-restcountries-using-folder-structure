@@ -14,6 +14,7 @@ const Countries = () => {
       <h1>
         Rest countries practice <i>(Countries.js)</i>
       </h1>
+      <h2>Test netlify</h2>
       <h3>Available Countries: {countries.length}</h3>
       {/* {countries.map((country) => console.log(country))} */}
 
