@@ -21,6 +21,7 @@ const Countries = () => {
         {countries.map((country) => (
             <Country
             country = {country}
+            //use key to catch an unique id
             key = {country.cca3}
             //   name={country.name.common}
             //   capital={country.capital}
